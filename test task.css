@@ -17,6 +17,14 @@ body {
   height: 10vh;
 }
 
+@media screen and (max-width: 1000px) {
+  .grid {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-gap: 10px;
+    align-items: center;
+  }
+}
 @media screen and (min-width: 1000px) {
   .main-section {
     height: 75vh;
@@ -186,25 +194,26 @@ body {
   width: 45%;
   height: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 15px;
   flex-direction: column;
   font-family: "Roboto Serif", sans-serif;
 }
 
-.card-content-info {
-  line-height: 20px;
-  font-size: 0;
-}
+/*.card-content-info {*/
+/*  line-height: 20px;*/
+/*  font-size: 0;*/
+/*}*/
 
 .card-content-info-text {
   display: inline-block;
   vertical-align: middle;
-  max-width: 10ch;
+  /*max-width: 10ch;*/
 }
 
-.card-content-info span:not(last-child) {
-  margin-right: 1rem;
-}
+/*.card-content-info span:not(last-child) {*/
+/*  margin-right: 1rem;*/
+/*}*/
 
 .card-content-name {
   font-size: 45px;
@@ -223,7 +232,7 @@ body {
 }
 
 .card-content-info-text {
-  width: 15ch;
+  /*width: 15ch;*/
   font-size: 14px;
   font-weight: bold;
 }
@@ -300,3 +309,8 @@ body {
   gap: 2rem;
   flex-wrap: wrap;
 }
+/*.grid {*/
+/*  display: grid;*/
+/*  grid-template-columns: min-content 1fr min-content 1fr;*/
+/*  grid-gap: 10px;*/
+/*}*/
