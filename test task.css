@@ -51,7 +51,7 @@ body {
 .main-section {
   display: flex;
   align-items: center;
-  padding: 2rem;
+  padding: 4rem;
   background: linear-gradient(#ffe8cc, #fee3c6, #fde3c2);
 }
 .main-section-image {
