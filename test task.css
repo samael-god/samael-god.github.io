@@ -1,11 +1,11 @@
 html {
   scroll-behavior: smooth;
-  font-size: 10px;
+  
 }
 
 body {
   margin: 0 auto;
-  min-width: 700px;
+  
 }
 
 .header {
