@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="todo_style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@200&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://kit.fontawesome.com/db49598864.js" crossorigin="anonymous"></script>
+    <title>Task 3</title>
+</head>
+
+<body>
+    <script>
+        var prevScrollpos = 0;
+        window.onscroll = function () {
+            var elem = document.getElementById("button");
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos < currentScrollPos) {
+                elem.classList.add("move__right");
+            } else {
+                elem.classList.remove("move__right");
+            }
+            prevScrollpos = window.pageYOffset;
+        };
+    </script>
+    <div class="container">
+        <header class="fixed">
+            <div class="top-menu">
+                <span class="material-icons"> menu </span>
+                <select name="" id="">
+                    <option value="value1">January 2022</option>
+                    <option value="value2">Febrary 2022</option>
+                    <option value="value3">March 2022</option>
+                    <option value="value3">April 2022</option>
+                    <option value="value3">May 2022</option>
+                    <option value="value3">June 2022</option>
+                    <option value="value3">July 2022</option>
+                    <option value="value3">August 2022</option>
+                    <option value="value3">September 2022</option>
+                    <option value="value3">October 2022</option>
+                    <option value="value3">November 2022</option>
+                    <option value="value3">December 2022</option>
+                </select>
+                <span class="material-icons"> search </span>
+            </div>
+            <div class="calendar">
+                <div class="calendar__day used" tabindex="0">
+                    <span class="day__name">MON</span>
+                    <span class="day__number">21</span>
+                </div>
+                <div class="calendar__day" tabindex="0">
+                    <span class="day__name">TUE</span>
+                    <span class="day__number">22</span>
+                </div>
+                <div class="calendar__day selected-day used" tabindex="0">
+                    <span class="day__name">WED</span>
+                    <span class="day__number">23</span>
+                </div>
+                <div class="calendar__day used" tabindex="0">
+                    <span class="day__name">THU</span>
+                    <span class="day__number">24</span>
+                </div>
+                <div class="calendar__day" tabindex="0">
+                    <span class="day__name">FRI</span>
+                    <span class="day__number">25</span>
+                </div>
+                <div class="calendar__day" tabindex="0">
+                    <span class="day__name">SAT</span>
+                    <span class="day__number">26</span>
+                </div>
+                <div class="calendar__day" tabindex="0">
+                    <span class="day__name">SUN</span>
+                    <span class="day__number">27</span>
+                </div>
+                <div class="calendar__day" tabindex="0">
+                    <span class="day__name">MON</span>
+                    <span class="day__number">28</span>
+                </div>
+                <div class="calendar__day" tabindex="0">
+                    <span class="day__name">TUE</span>
+                    <span class="day__number">29</span>
+                </div>
+                <div class="calendar__day" tabindex="0">
+                    <span class="day__name">WED</span>
+                    <span class="day__number">30</span>
+                </div>
+                <div class="calendar__day" tabindex="0">
+                    <span class="day__name">THU</span>
+                    <span class="day__number">31</span>
+                </div>
+            </div>
+        </header>
+        <div class="main">
+            <div class="card__section">
+                <div class="cards__name">TO DO (2)</div>
+                <div class="card red-task">
+                    <div class="card__info">
+                        <span class="card__info__time">19:00</span>
+                        <span class="card__info__task">Partners Meeting</span>
+                    </div>
+                    <div class="grow"></div>
+                    <div class="checkbox__wrapper">
+                        <input type="checkbox" id="task1" hidden /><label for="task1" class="checkbox__label"></label>
+                    </div>
+                </div>
+                <div class="card yellow-task">
+                    <div class="card__info">
+                        <span class="card__info__time">14:00</span>
+                        <span class="card__info__task">Update Blog</span>
+                    </div>
+                    <div class="grow"></div>
+                    <div class="checkbox__wrapper">
+                        <input type="checkbox" id="task2" hidden /><label for="task2" class="checkbox__label"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="card__section">
+                <div class="cards__name">DONE (5)</div>
+                <div class="card red-task">
+                    <div class="card__info">
+                        <span class="card__info__time">13:00</span>
+                        <span class="card__info__task">Finalize Presentation</span>
+                    </div>
+                    <div class="grow"></div>
+                    <div class="checkbox__wrapper">
+                        <input type="checkbox" id="task3" hidden /><label for="task3" class="checkbox__label"></label>
+                    </div>
+                </div>
+                <div class="card yellow-task">
+                    <div class="card__info">
+                        <span class="card__info__time">09:00</span>
+                        <span class="card__info__task">Book Flights To Seattle</span>
+                    </div>
+                    <div class="grow"></div>
+                    <div class="checkbox__wrapper">
+                        <input type="checkbox" id="task4" hidden /><label for="task4" class="checkbox__label"></label>
+                    </div>
+                </div>
+                <div class="card green-task">
+                    <div class="card__info">
+                        <span class="card__info__time">11:00</span>
+                        <span class="card__info__task">Buy Travel Insurance</span>
+                    </div>
+                    <div class="grow"></div>
+                    <div class="checkbox__wrapper">
+                        <input type="checkbox" id="task5" hidden /><label for="task5" class="checkbox__label"></label>
+                    </div>
+                </div>
+                <div class="card green-task">
+                    <div class="card__info">
+                        <span class="card__info__time">21:00</span>
+                        <span class="card__info__task">Buy SMTH</span>
+                    </div>
+                    <div class="grow"></div>
+                    <div class="checkbox__wrapper">
+                        <input type="checkbox" id="task6" hidden /><label for="task6" class="checkbox__label"></label>
+                    </div>
+                </div>
+                <div class="card green-task">
+                    <div class="card__info">
+                        <span class="card__info__time">23:00</span>
+                        <span class="card__info__task">Buy SMTH Again</span>
+                    </div>
+                    <div class="grow"></div>
+                    <div class="checkbox__wrapper">
+                        <input type="checkbox" id="task7" hidden /><label for="task7" class="checkbox__label"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="add__button" id="button">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+    </div>
+</body>
+
+</html>

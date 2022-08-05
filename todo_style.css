@@ -1,0 +1,157 @@
+body {
+    margin: 0 auto;
+  }
+  .container {
+    font-family: "Roboto Serif", serif;
+  }
+  .top-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .fixed {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+  }
+  select {
+    border: none;
+    font-family: "Roboto Serif", serif;
+    font-size: 20px;
+    background-color: white;
+  }
+  .calendar {
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 10px;
+  }
+  .calendar__day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto Serif", serif;
+    padding: 15px 30px;
+    cursor: pointer;
+  }
+  .calendar__day:focus {
+    background-color: #7975e6;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white !important;
+  }
+  .calendar__day:focus .day__name{
+    color: white;
+  }
+  .day__name {
+    color: grey;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  .day__number {
+    font-size: 30px;
+  }
+  .used::after {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 3.5px;
+    background-color: red;
+    margin-top: 2px;
+  }
+  /* .selected-day {
+    background-color: #7975e6;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  } */
+  /* .calendar__day.selected-day > span:nth-of-type(n) {
+    color: white;
+  } */
+  .card__section {
+    margin: 20px 15px;
+  }
+  .cards__name {
+    font-size: 15px;
+    color: rgb(141 138 138);
+  }
+  .card {
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin: 10px 0;
+    font-size: 15px;
+    padding: 20px 10px;
+    align-items: center;
+    border-radius: 5px;
+  }
+  .card__info {
+    display: flex;
+    flex-direction: column;
+  }
+  .grow {
+    flex-grow: 1;
+  }
+  .card__info__time {
+    margin-bottom: 5px;
+    color: grey;
+    font-size: 20px;
+  }
+  .card__info__task {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .red-task {
+    border-left: 3px solid #d67171;
+  }
+  .green-task {
+    border-left: 3px solid #e1c37a;
+  }
+  .yellow-task {
+    border-left: 3px solid #72b36f;
+  }
+  .checkbox__wrapper {
+    font-size: 25px;
+  }
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  /* Custom Checkbox Font Awesome */
+  input[type="checkbox"] + label:before {
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+  }
+  /* unchecked */
+  input[type="checkbox"] + label:before {
+    content: "\f111";
+    font-weight: 100;
+    color: grey;
+  }
+  /* checked */
+  input[type="checkbox"]:checked + label:before {
+    content: "\f058";
+    font-weight: 900;
+    color: #72b36f;
+  }
+  .add__button {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: #ff696a;
+    position: fixed;
+    right: 15px;
+    bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: right 0.7s;
+    cursor: pointer;
+    border: none;
+  }
+  .fa-plus {
+    font-size: 30px;
+    color: white;
+  }
+  .move__right{
+    right: -100px;
+  }
