@@ -144,7 +144,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: right 0.7s;
+    transition: transform 0.7s;
     cursor: pointer;
     border: none;
   }
@@ -153,5 +153,5 @@ body {
     color: white;
   }
   .move__right{
-    right: -100px;
+    transform: translateX(100px);
   }
