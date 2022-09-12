@@ -21,7 +21,7 @@ a:hover {
 
     margin: 32px 0;
     padding-bottom: 16px;
-    border-bottom: 1px solid #ccc;
+    /*border-bottom: 1px solid #ccc;*/
 }
 
 .tabbed [type="radio"] {
@@ -95,4 +95,9 @@ a:hover {
 img{
     width: 100%;
 
+}
+.item-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
