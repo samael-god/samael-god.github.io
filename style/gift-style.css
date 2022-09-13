@@ -1,6 +1,6 @@
 body {
     background-color: lightblue;
-
+    min-width: 400px;
     font: 400 16px/1.5em "Open Sans", sans-serif;
 }
 .page-content {
@@ -87,7 +87,7 @@ a:hover {
 .tabbed [type="radio"]:nth-of-type(5):checked ~ .tab-content:nth-of-type(5),
 .tabbed [type="radio"]:nth-of-type(6):checked ~ .tab-content:nth-of-type(6) {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: clamp(10px, 5%, 30px);
 
 }
@@ -95,8 +95,13 @@ img{
     width: 100%;
 
 }
-.item-wrapper{
+.item{
     display: flex;
     flex-direction: column;
     justify-content: end;
+}
+.image-wrapper{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
 }
