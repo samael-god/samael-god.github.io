@@ -5,7 +5,7 @@ body {
 }
 .page-content {
     /*max-width: 700px;*/
-    margin: 32px auto;
+    /* margin: 32px auto; */
     padding: 32px;
     background: #fff;
 }
@@ -42,7 +42,7 @@ a {
     border-bottom: 1px solid #ccc;
     position: sticky;
     top: 0;
-    z-index: 2;
+    z-index: 10;
 }
 .tab{
 
