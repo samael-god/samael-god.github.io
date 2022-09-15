@@ -6,7 +6,7 @@ body {
 .page-content {
     /*max-width: 700px;*/
     /* margin: 32px auto; */
-    padding: 32px;
+    padding: 16px 32px 64px 32px;
     background: #fff;
 }
 a {
@@ -22,7 +22,6 @@ a {
 
 
 .tabbed {
-
     margin: 32px 0;
     padding-bottom: 16px;
     /*border-bottom: 1px solid #ccc;*/
