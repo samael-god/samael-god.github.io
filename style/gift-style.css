@@ -15,9 +15,6 @@ a {
     height: 100%;
     z-index: 1;
 }
-.tabbed {
-    border-bottom: 1px solid #ccc;
-}
 
 .tabbed [type="radio"] {
     display: none;
@@ -91,6 +88,7 @@ img{
     display: flex;
     flex-direction: column;
     position: relative;
+    padding: 10px;
   
 }
 .image-wrapper{
@@ -104,4 +102,7 @@ p{
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+}
+.item:hover{
+    box-shadow: rgb(183 33 255 / 40%) 0px 8px 24px;
 }
