@@ -3,7 +3,7 @@ body {
     min-width: 400px;
     font: 400 16px/1.5em "Popins", sans-serif;
 }
-.page-content {
+.tabbed {
     padding: 16px 32px;
     background: #fff;
 }
