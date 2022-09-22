@@ -1,12 +1,10 @@
 body {
-    background-color: lightblue;
-    min-width: 400px;
+    margin: 0 auto;
+    padding: 0;
+    min-width: 350px;
     font: 400 16px/1.5em "Popins", sans-serif;
 }
-.page-content {
-    padding: 16px 32px;
-    background: #fff;
-}
+
 a {
     color: inherit; 
     text-decoration: inherit;
@@ -31,6 +29,7 @@ a {
     position: sticky;
     top: 0;
     z-index: 10;
+    margin-top: 0;
 }
 .tab{
     flex: 1 0 100px;
@@ -57,6 +56,7 @@ a {
 .tab-content {
     display: none;
     color: #777;
+    padding: 0 20px;
 }
 
 .tabbed [type="radio"]:nth-of-type(1):checked ~ .tabs .tab:nth-of-type(1) label,
@@ -79,7 +79,8 @@ a {
 .tabbed [type="radio"]:nth-of-type(6):checked ~ .tab-content:nth-of-type(6) {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: clamp(10px, 5vw, 30px);
+    grid-auto-rows: minmax(300px, 550px);
+    gap: 20px;
 
 }
 img{
@@ -90,21 +91,100 @@ img{
     display: flex;
     flex-direction: column;
     position: relative;
-    padding: 10px;
+    padding: 0 10px;
+    gap: 20px;
   
 }
 .image-wrapper{
-    display: flex;
-    align-items: center;
-    flex-grow: 1;
-    max-height: 500px;
-    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+    /* min-height: 480px; */
 }
 p{
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    margin: 0;
+    padding: 16px 0;    
 }
 .item:hover{
-    box-shadow: rgb(183 33 255 / 40%) 0px 8px 24px;
+    box-shadow: rgb(25 25 25 / 40%) 0px 1px 4px;
+}
+@media screen and (max-width: 619px) {
+    
+.tabbed [type="radio"]:nth-of-type(1):checked ~ .tab-content:nth-of-type(1),
+.tabbed [type="radio"]:nth-of-type(2):checked ~ .tab-content:nth-of-type(2),
+.tabbed [type="radio"]:nth-of-type(3):checked ~ .tab-content:nth-of-type(3),
+.tabbed [type="radio"]:nth-of-type(4):checked ~ .tab-content:nth-of-type(4),
+.tabbed [type="radio"]:nth-of-type(5):checked ~ .tab-content:nth-of-type(5),
+.tabbed [type="radio"]:nth-of-type(6):checked ~ .tab-content:nth-of-type(6) {
+    
+    grid-auto-rows: minmax(300px, calc(100vh - 116px));
+  }
+.tab {
+    flex: 1 1 calc(100% / 3);
+}
+    
+}
+.hookah{
+    background-image: url("../img/hookah.webp");
+}
+.b_brush{
+    background-image: url("../img/b_brush.webp");
+}
+.b_cond{
+    background-image: url("../img/b_cond.webp");
+}
+.b_oil{
+    background-image: url("../img/b_oil.webp");
+}
+.b_shampoo{
+    background-image: url("../img/b_shampoo.webp");
+}
+.b_vosk{
+    background-image: url("../img/b_vosk.webp");
+}
+.card_2{
+    background-image: url("../img/card_2.webp");
+}
+.chehol{
+    background-image: url("../img/chehol.webp");
+}
+.drift{
+    background-image: url("../img/drift.webp");
+}
+.extrim{
+    background-image: url("../img/extrim.webp");
+}
+.knife{
+    background-image: url("../img/knife.webp");
+}
+.kormil{
+    background-image: url("../img/kormil.webp");
+}
+.kowelek{
+    background-image: url("../img/kowelek.webp");
+}
+.kvadr{
+    background-image: url("../img/kvadr.webp");
+}
+.massaj{
+    background-image: url("../img/massaj.webp");
+}
+.poilka{
+    background-image: url("../img/poilka.webp");
+}
+.samolet{
+    background-image: url("../img/samolet.webp");
+}
+.ssd{
+    background-image: url("../img/ssd.webp");
+}
+.stanciya{
+    background-image: url("../img/stanciya.webp");
+}
+.vesi{
+    background-image: url("../img/vesi.webp");
 }
