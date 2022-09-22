@@ -120,7 +120,7 @@ p{
 .tabbed [type="radio"]:nth-of-type(5):checked ~ .tab-content:nth-of-type(5),
 .tabbed [type="radio"]:nth-of-type(6):checked ~ .tab-content:nth-of-type(6) {
     
-    grid-auto-rows: minmax(300px, calc(100vh - 116px));
+    grid-auto-rows: minmax(250px, calc(50vh - 67px));
   }
 .tab {
     flex: 1 1 calc(100% / 3);
