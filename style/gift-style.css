@@ -104,7 +104,7 @@ img{
 p{
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     margin: 0;
     padding: 16px 0;    
 }
@@ -120,7 +120,7 @@ p{
 .tabbed [type="radio"]:nth-of-type(5):checked ~ .tab-content:nth-of-type(5),
 .tabbed [type="radio"]:nth-of-type(6):checked ~ .tab-content:nth-of-type(6) {
     
-    grid-auto-rows: minmax(250px, calc(50vh - 67px));
+    grid-auto-rows: minmax(250px, calc((100vh - 134px)/2));
   }
 .tab {
     flex: 1 1 calc(100% / 3);
@@ -144,6 +144,9 @@ p{
 }
 .b_vosk{
     background-image: url("../img/b_vosk.webp");
+}
+.b_all{
+    background-image: url("../img/b_all.webp");
 }
 .card_2{
     background-image: url("../img/card_2.webp");
