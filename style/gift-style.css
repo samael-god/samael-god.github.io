@@ -108,9 +108,11 @@ img{
 p{
     overflow: hidden;
     text-overflow: ellipsis;
-    /* white-space: nowrap; */
+     /*white-space: nowrap;*/
+    min-height: 10%;
     margin: 0;
-    padding: 16px 0;    
+    padding: 16px 0;
+
 }
 .item:hover{
     box-shadow: rgb(25 25 25 / 40%) 0 1px 4px;
