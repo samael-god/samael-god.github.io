@@ -78,7 +78,7 @@ body {
   color: #743d22;
 }
 .main-section-image {
-  background-image: url("./img/2pc.jpg");
+  background-image: url("../img/2pc.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -359,7 +359,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1rem 0 0;
+    padding: 0;
     margin-bottom: 2rem;
     height: auto;
   }
@@ -367,7 +367,7 @@ body {
     width: 100%;
   }
   .card-content {
-    padding-left: 1rem;
+    padding: 0 1rem;
     width: auto;
   }
   .footer {
