@@ -134,81 +134,57 @@ p{
 }
     
 }
-.hookah{
-    background-image: url("../img/hookah.webp");
-}
-.b_brush{
-    background-image: url("../img/b_brush.webp");
-}
-.b_cond{
-    background-image: url("../img/b_cond.webp");
-}
-.b_oil{
-    background-image: url("../img/b_oil.webp");
-}
-.b_shampoo{
-    background-image: url("../img/b_shampoo.webp");
-}
-.b_vosk{
-    background-image: url("../img/b_vosk.webp");
-}
 .b_all{
-    background-image: url("../img/b_all.webp");
+    background-image: url("../img/Jeka/b_all.webp");
 }
 .card_2{
-    background-image: url("../img/card_2.webp");
+    background-image: url("../img/Alena/card_2.webp");
 }
-.chehol{
-    background-image: url("../img/chehol.webp");
-}
-.drift{
-    background-image: url("../img/drift.webp");
-}
+
 .extrim{
-    background-image: url("../img/extrim.webp");
+    background-image: url("../img/Dima/extrim.webp");
 }
 .knife{
-    background-image: url("../img/knife.webp");
+    background-image: url("../img/Jeka/knife.webp");
 }
-.kormil{
-    background-image: url("../img/kormil.webp");
-}
-.kowelek{
-    background-image: url("../img/kowelek.webp");
-}
+
 .kvadr{
-    background-image: url("../img/kvadr.webp");
+    background-image: url("../img/Dima/kvadr.webp");
 }
 .massaj{
-    background-image: url("../img/massaj.webp");
+    background-image: url("../img/Dima/massaj.webp");
 }
 .poilka{
-    background-image: url("../img/poilka.webp");
+    background-image: url("../img/Nikita/poilka.webp");
 }
-.samolet{
-    background-image: url("../img/samolet.webp");
-}
+
 .ssd{
-    background-image: url("../img/ssd.webp");
+    background-image: url("../img/Nikita/ssd.webp");
 }
-.stanciya{
-    background-image: url("../img/stanciya.webp");
-}
-.vesi{
-    background-image: url("../img/vesi.webp");
-}
-.w_g102{
-    background-image: url("../img/w_g102.webp");
-}
+
 .w_g305{
-    background-image: url("../img/w_g305.webp");
+    background-image: url("../img/Wyka/w_g305.webp");
 }
-.w_podstavka{
-    background-image: url("../img/w_podstavka.webp");
+
+.w_derjatel{
+    background-image: url("../img/Wyka/derjatel.webp");
 }
-.w_kniga{
-    background-image: url("../img/w_kniga.webp");
+.w_dojdevik{
+    background-image: url("../img/Wyka/dojdevik.webp");
 }
-.w_klava{
-    background-image: url("../img/w_klawa.webp");
+.w_fonar{
+    background-image: url("../img/Wyka/fonar.webp");
 }
+.w_nabor{
+    background-image: url("../img/Wyka/nabor.webp");
+}
+.w_symka{
+    background-image: url("../img/Wyka/symka.webp");
+}
+.v_mrt{
+    background-image: url("../img/Vlad/v_mrt.webp");
+}
+.v_kamera{
+    background-image: url("../img/Vlad/v_kamera.webp");
+}
+
