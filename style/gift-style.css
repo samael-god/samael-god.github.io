@@ -134,18 +134,13 @@ p{
 }
     
 }
-.b_all{
-    background-image: url("../img/Jeka/b_all.webp");
-}
+
 .card_2{
     background-image: url("../img/Alena/card_2.webp");
 }
 
 .extrim{
     background-image: url("../img/Dima/extrim.webp");
-}
-.knife{
-    background-image: url("../img/Jeka/knife.webp");
 }
 
 .kvadr{
@@ -181,10 +176,20 @@ p{
 .w_symka{
     background-image: url("../img/Wyka/symka.webp");
 }
-.v_mrt{
-    background-image: url("../img/Vlad/v_mrt.webp");
+
+.v_wetka{
+    background-image: url("../img/Vlad/v_wetka.webp");
 }
 .v_kamera{
     background-image: url("../img/Vlad/v_kamera.webp");
 }
 
+.j_keg{
+    background-image: url("../img/Jeka/j_keg.webp");
+}
+.j_maika{
+    background-image: url("../img/Jeka/j_maika.webp");
+}
+.j_melnica{
+    background-image: url("../img/Jeka/j_melnica.webp");
+}
