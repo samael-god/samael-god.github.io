@@ -134,11 +134,6 @@ p{
 }
     
 }
-
-.card_2{
-    background-image: url("../img/Alena/card_2.webp");
-}
-
 .extrim{
     background-image: url("../img/Dima/extrim.webp");
 }
@@ -176,6 +171,7 @@ p{
 .w_symka{
     background-image: url("../img/Wyka/symka.webp");
 }
+
 
 .v_wetka{
     background-image: url("../img/Vlad/v_wetka.webp");
