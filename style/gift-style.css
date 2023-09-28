@@ -162,6 +162,7 @@ p{
     background-image: url("../img/Vlad/v_kamera.webp");
 }
 
+
 .j_keg{
     background-image: url("../img/Jeka/j_keg.webp");
 }
@@ -182,4 +183,14 @@ p{
 }
 .j_irr{
     background-image: url("../img/Jeka/j_irr.webp");
+}
+
+.d_cam{
+    background-image: url("../img/Dima/d_cam.webp");
+}
+.d_micr{
+    background-image: url("../img/Dima/d_micr.webp");
+}
+.d_wetka{
+    background-image: url("../img/Dima/d_wetka.webp");
 }
