@@ -164,7 +164,12 @@ p{
 .v_kamera{
     background-image: url("../img/Vlad/v_kamera.webp");
 }
-
+.v_stul{
+    background-image: url("../img/Vlad/v_stul.webp");
+}
+.v_spa{
+    background-image: url("../img/Vlad/v_spa.webp");
+}
 
 .j_keg{
     background-image: url("../img/Jeka/j_keg.webp");
