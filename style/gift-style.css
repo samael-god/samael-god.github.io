@@ -137,6 +137,15 @@ p{
 .n_deadinside{
     background-image: url("../img/Nikita/n_deadinside.webp");
 }
+.n_ssd{
+    background-image: url("../img/Nikita/n_ssd.webp");
+}
+.n_hata{
+    background-image: url("../img/Nikita/n_hata.webp");
+}
+.n_gril{
+    background-image: url("../img/Nikita/n_gril.webp");
+}
 
 .w_g305{
     background-image: url("../img/Wyka/w_g305.webp");
