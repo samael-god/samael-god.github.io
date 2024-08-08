@@ -64,11 +64,7 @@ a {
 .tabbed [type="radio"]:nth-of-type(3):checked ~ .tabs .tab:nth-of-type(3) label,
 .tabbed [type="radio"]:nth-of-type(4):checked ~ .tabs .tab:nth-of-type(4) label,
 .tabbed [type="radio"]:nth-of-type(5):checked ~ .tabs .tab:nth-of-type(5) label,
-.tabbed
-  [type="radio"]:nth-of-type(6):checked
-  ~ .tabs
-  .tab:nth-of-type(6)
-  label {
+.tabbed [type="radio"]:nth-of-type(6):checked ~ .tabs .tab:nth-of-type(6) label {
   border-bottom-color: #fff;
   border-top-color: #b721ff;
   background: #fff;
@@ -135,88 +131,19 @@ p {
 .n_deadinside {
   background-image: url("../img/Nikita/n_deadinside.webp");
 }
-.n_ssd {
-  background-image: url("../img/Nikita/n_ssd.webp");
-}
 .n_hata {
   background-image: url("../img/Nikita/n_hata.webp");
 }
 .n_gril {
   background-image: url("../img/Nikita/n_gril.webp");
 }
-.n_dust {
-  background-image: url("../img/Nikita/n_dust.webp");
-}
-.n_corn {
-  background-image: url("../img/Nikita/n_corn.webp");
-}
-.n_korm {
-  background-image: url("../img/Nikita/n_korm.webp");
-}
-.n_monitor {
-  background-image: url("../img/Nikita/n_monitor.webp");
-}
-
 .w_g305 {
   background-image: url("../img/Wyka/w_g305.webp");
-}
-.w_derjatel {
-  background-image: url("../img/Wyka/derjatel.webp");
-}
-.w_dojdevik {
-  background-image: url("../img/Wyka/dojdevik.webp");
 }
 .w_fonar {
   background-image: url("../img/Wyka/fonar.webp");
 }
-.w_nabor {
-  background-image: url("../img/Wyka/nabor.webp");
-}
-.w_symka {
-  background-image: url("../img/Wyka/symka.webp");
+.w_britva {
+  background-image: url("../img/Wyka/w_britva.webp");
 }
 
-.v_wetka {
-  background-image: url("../img/Vlad/v_wetka.webp");
-}
-.v_kamera {
-  background-image: url("../img/Vlad/v_kamera.webp");
-}
-.v_stul {
-  background-image: url("../img/Vlad/v_stul.webp");
-}
-.v_spa {
-  background-image: url("../img/Vlad/v_spa.webp");
-}
-
-.j_keg {
-  background-image: url("../img/Jeka/j_keg.webp");
-}
-.j_maika {
-  background-image: url("../img/Jeka/j_maika.webp");
-}
-.j_melnica {
-  background-image: url("../img/Jeka/j_melnica.webp");
-}
-.j_port {
-  background-image: url("../img/Jeka/j_port.webp");
-}
-.j_derj {
-  background-image: url("../img/Jeka/j_derj.webp");
-}
-.j_kamen {
-  background-image: url("../img/Jeka/j_kamen.webp");
-}
-.j_irr {
-  background-image: url("../img/Jeka/j_irr.webp");
-}
-
-.d_cam {
-  background-image: url("../img/Dima/d_cam.webp");
-}
-.d_micr {
-  background-image: url("../img/Dima/d_micr.webp");
-}
-.d_wetka {
-  background-image: url("../img/Dima/d_wetka.webp");
-}
